@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Modern Landing Page",
-  description: "A beautiful, responsive landing page built with Next.js and Tailwind CSS",
+  title: "UIF Independent Sponsor Program",
+  description: "Capital partner for independent sponsors. We provide the funding and support you need to acquire and grow businesses.",
 };
 
 export default function RootLayout({
