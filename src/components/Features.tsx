@@ -37,18 +37,19 @@ export default function Features() {
   return (
     <section id="features" className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-4xl sm:text-5xl font-bold text-center mb-12 bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+        <h2 className="text-4xl sm:text-5xl font-bold text-center mb-12" style={{color: '#13294B'}}>
           Why Choose UIF
         </h2>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {features.map((feature, index) => (
             <div
               key={index}
-              className="p-6 bg-gradient-to-br from-blue-50 to-purple-50 rounded-xl hover:shadow-lg transition transform hover:scale-105"
+              className="p-6 rounded-xl hover:shadow-lg transition transform hover:scale-105 border"
+              style={{backgroundColor: '#f0f4f9', borderColor: '#d0dcea'}}
             >
               <div className="text-4xl mb-4">{feature.icon}</div>
-              <h3 className="text-xl font-semibold mb-2">{feature.title}</h3>
-              <p className="text-gray-600">{feature.description}</p>
+              <h3 className="text-xl font-semibold mb-2" style={{color: '#13294B'}}>{feature.title}</h3>
+              <p style={{color: '#374151'}}>{feature.description}</p>
             </div>
           ))}
         </div>

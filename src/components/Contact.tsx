@@ -28,9 +28,9 @@ export default function Contact() {
   };
 
   return (
-    <section id="contact" className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-blue-50 to-purple-50">
+    <section id="contact" className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
       <div className="max-w-2xl mx-auto">
-        <h2 className="text-4xl sm:text-5xl font-bold text-center mb-12 bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+        <h2 className="text-4xl sm:text-5xl font-bold text-center mb-12" style={{color: '#13294B'}}>
           Submit Your Application
         </h2>
 
@@ -52,7 +52,8 @@ export default function Contact() {
               value={formData.name}
               onChange={handleChange}
               required
-              className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 transition"
+              className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 transition"
+              style={{'--tw-ring-color': '#13294B'} as React.CSSProperties}
               placeholder="Sponsor Name"
             />
           </div>
@@ -91,7 +92,8 @@ export default function Contact() {
 
           <button
             type="submit"
-            className="w-full bg-gradient-to-r from-blue-600 to-purple-600 text-white px-8 py-3 rounded-lg hover:opacity-90 transition font-semibold"
+            className="w-full text-white px-8 py-3 rounded-lg hover:opacity-90 transition font-semibold"
+          style={{backgroundColor: '#E84A27'}}
           >
             Submit Application
           </button>
