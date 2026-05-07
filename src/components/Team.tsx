@@ -1,12 +1,12 @@
 const team = [
   {
     name: 'Jack Lindblad',
-    role: 'Partner',
+    role: 'Investment Manager',
     linkedin: 'https://www.linkedin.com/in/jacklindblad',
   },
   {
     name: 'Matt McGanity',
-    role: 'Partner',
+    role: 'Managing Director',
     linkedin: 'https://www.linkedin.com/in/mattmcganity',
   },
 ];
